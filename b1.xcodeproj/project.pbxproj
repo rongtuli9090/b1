@@ -14,7 +14,8 @@
 		8C7A98A41AF520FF00B7F0C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C7A98A31AF520FF00B7F0C2 /* Images.xcassets */; };
 		8C7A98A71AF520FF00B7F0C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C7A98A51AF520FF00B7F0C2 /* LaunchScreen.xib */; };
 		8C7A98B31AF520FF00B7F0C2 /* b1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7A98B21AF520FF00B7F0C2 /* b1Tests.m */; };
-		8C7A98BF1AF523D900B7F0C2 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7A98BD1AF523D900B7F0C2 /* Animal.m */; };
+		8C7A98C41AF524B200B7F0C2 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7A98C21AF524B200B7F0C2 /* Animal.m */; };
+		8C7A98C51AF524B200B7F0C2 /* Animal.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C7A98C31AF524B200B7F0C2 /* Animal.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +42,9 @@
 		8C7A98AC1AF520FF00B7F0C2 /* b1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = b1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7A98B11AF520FF00B7F0C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C7A98B21AF520FF00B7F0C2 /* b1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = b1Tests.m; sourceTree = "<group>"; };
-		8C7A98BC1AF523D900B7F0C2 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
-		8C7A98BD1AF523D900B7F0C2 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		8C7A98C11AF524B200B7F0C2 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		8C7A98C21AF524B200B7F0C2 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		8C7A98C31AF524B200B7F0C2 /* Animal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Animal.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,9 @@
 		8C7A98951AF520FF00B7F0C2 /* b1 */ = {
 			isa = PBXGroup;
 			children = (
+				8C7A98C11AF524B200B7F0C2 /* Animal.h */,
+				8C7A98C21AF524B200B7F0C2 /* Animal.m */,
+				8C7A98C31AF524B200B7F0C2 /* Animal.xib */,
 				8C7A989A1AF520FF00B7F0C2 /* AppDelegate.h */,
 				8C7A989B1AF520FF00B7F0C2 /* AppDelegate.m */,
 				8C7A989D1AF520FF00B7F0C2 /* ViewController.h */,
@@ -92,8 +97,6 @@
 				8C7A98A31AF520FF00B7F0C2 /* Images.xcassets */,
 				8C7A98A51AF520FF00B7F0C2 /* LaunchScreen.xib */,
 				8C7A98961AF520FF00B7F0C2 /* Supporting Files */,
-				8C7A98BC1AF523D900B7F0C2 /* Animal.h */,
-				8C7A98BD1AF523D900B7F0C2 /* Animal.m */,
 			);
 			path = b1;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C7A98A21AF520FF00B7F0C2 /* Main.storyboard in Resources */,
+				8C7A98C51AF524B200B7F0C2 /* Animal.xib in Resources */,
 				8C7A98A71AF520FF00B7F0C2 /* LaunchScreen.xib in Resources */,
 				8C7A98A41AF520FF00B7F0C2 /* Images.xcassets in Resources */,
 			);
@@ -225,7 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C7A989F1AF520FF00B7F0C2 /* ViewController.m in Sources */,
-				8C7A98BF1AF523D900B7F0C2 /* Animal.m in Sources */,
+				8C7A98C41AF524B200B7F0C2 /* Animal.m in Sources */,
 				8C7A989C1AF520FF00B7F0C2 /* AppDelegate.m in Sources */,
 				8C7A98991AF520FF00B7F0C2 /* main.m in Sources */,
 			);
