@@ -10,4 +10,6 @@
 
 @interface Animal : NSDocument
 
+@property NSSTring *color;
+
 @end
