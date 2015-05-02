@@ -10,6 +10,14 @@
 
 @interface Animal : NSDocument
 
-@property NSSTring *color;
+
+
+
+
+@property habitj;
+sadf
+asd'
+floatasdf
+
 
 @end
